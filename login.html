@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pop Music</title>
+    <link rel="stylesheet" href="css/login.css" type="text/css">
+</head>
+<body>
+    <header id="header">
+        <h1>Pop Music</h1>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li><a  href="index.html">Home</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a id="page" href="login.html">Login</a></li>
+        </ul>
+    </nav>
+    <section id="contener">
+        <form id="login" method="post">
+            <label  for="username" >Username: </label>
+            <input  type="text" name="username" id="username" placeholder="username" required><br>
+            <label  for="password">Password: </label>
+            <input type="password" name="password" id="password" placeholder="password" autocomplete="off" maxlength="8" required><br>
+            <button type="submit" onclick="opensign()">Sing up</button>
+            <button type="submit" onclick="openpage()">Log in</button>  
+        </form>
+    </section>
+    <footer class="footre">
+        <marquee  behavior="scroll" direction="left"  onmouseout="start()" onmouseover="stop()" scrollamount="8px" >Pop Music, Copyrigt &copy;2023 r.gh </marquee>
+    </footer>
+    <script>
+        function opensign(){
+            window.open("singup.html","_blank");
+        }
+        function openpage(){
+            window.open("page-of-member.html","_blank");
+        }
+    </script>
+</body>
+</html>

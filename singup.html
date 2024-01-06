@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pop Music</title>
+    <link rel="stylesheet" href="css/singup.css" type="text/css">
+</head>
+<body>
+    <header id="header">
+        <h1>Pop Music</h1>
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li>
+                <a href="login.html">&DoubleLongLeftArrow; Back</a>
+            </li>
+        </ul>
+    </nav>
+    <section id="contener">
+        <form id="login" method="post">
+            <label  for="username" ><span id="star">*</span>Username: </label>
+            <input  type="text" name="username" id="username" placeholder="username" required><br>
+            <label  for="password"><span id="star">*</span>Password: </label>
+            <input type="password" name="password" id="password" placeholder="password" required autocomplete="off" maxlength="8"><br>
+            <label  for="reppassword" ><span id="star">*</span>Repet Pas: </label>
+            <input type="password" name="password" id="reppassword" placeholder="repet password" required autocomplete="off" maxlength="8"><br>
+            <button type="submit" onclick="openpage()">Sing up</button>
+            <label for="chebox" ><span id="remmber">مرا به خاطر بسپار</span></label>
+            <input type="checkbox" id="chebox">
+        </form>
+    </section>
+    <footer class="footre">
+        <marquee  behavior="scroll" direction="left"  onmouseout="start()" onmouseover="stop()" scrollamount="8px" >Pop Music, Copyrigt &copy;2023 r.gh </marquee>
+    </footer>
+    <script>
+        function openpage(){
+            window.open("page-of-member.html","_blank");
+        }
+    </script>
+</body>
+</html>

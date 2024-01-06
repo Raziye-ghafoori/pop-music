@@ -1,0 +1,67 @@
+@font-face {
+    font-family: tanha;
+    src: url(../font/Tanha.eot);
+    src: url(../font/Tanha.ttf),url(../font/Tanha.woff),url(../font/Tanha.woff2);
+}
+body{
+    background-image:linear-gradient(#1a1a1d,#6f2232);
+    background-repeat: no-repeat;
+    height: 680px;
+}
+#back a{
+    color: #6f2232;
+    text-shadow: .1px .1px 10px #4e4e50 ;
+    text-decoration: none;
+    font-size: 30px;
+    
+}
+#back a:hover{
+    color: #4e4e50;
+    text-shadow: #6f2232 .1px .1px 10px ;
+}
+h1{
+    text-align: center;
+    color: #4e4e50;
+    text-shadow:#6f2232 1px 1px 10px;
+    font-size: 100px;
+    padding:50px 0;
+    font-family: tanha;
+    animation: move 2s  infinite ease-out both;
+}
+@keyframes move {
+    from{ 
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#text{
+    text-align: center;
+    color: #4e4e50;
+    text-shadow: #1a1a1d 1px 1px 10px;
+    font-size: 50px;
+}
+#button{
+    background-color: #4e4e50;
+    padding:10px 30px;
+    border-radius: 25px 0;
+    font-family: tanha;
+    text-decoration: none;
+    color: #6f2232;
+    font-size: 30px;
+    box-sizing:border-box;
+    font-weight: bold;
+}
+
+#button:hover{
+    color: #1a1a1d;
+    text-shadow: 1px 1px 10px #6f2232;
+    border: #1a1a1d 1px solid;
+}
+/* #1a1a1d
+   #4e4e50
+   #6f2232
+   #950740
+   #c3073f    
+*/

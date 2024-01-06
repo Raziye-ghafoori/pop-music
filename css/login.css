@@ -1,0 +1,142 @@
+@font-face {
+    font-family: tanha;
+    src: url(../font/Tanha.eot);
+    src: url(../font/Tanha.ttf),url(../font/Tanha.woff),url(../font/Tanha.woff2);
+}
+*{margin: 0;padding: 0;}
+body{
+    background-color: #1a1a1d;
+}
+#header{
+    position:fixed;
+    width: 100%;
+    background-image:url(../image/bac.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin:0 auto;
+    color:#1a1a1d ;
+    box-sizing: border-box;
+    min-height: 180px ;
+    text-align: center;
+    font: 40px Georgia, 'Times New Roman', Times, serif;
+    padding-top: 50px ;
+    border: 5px solid #950740;
+    text-shadow: #950740 1px 1px 10px ,#4e4e50 -1px -1px 10px;
+    z-index: 10;
+    opacity: 0.95;
+}
+#navbar{
+    position:fixed;
+    width: 100%;
+    top: 180px;
+    background-image: linear-gradient(#950740,#1a1a1d);
+    text-align: left;
+    box-sizing: border-box;
+    height: 50px;
+    z-index: 10;
+    opacity: 0.9;
+}
+#navbar ul li{
+    display: inline-block;
+    padding-top:10px ;
+    margin-left:20px;
+    font: 20px  Georgia, 'Times New Roman', Times, serif;
+}
+#navbar ul li a{
+    color:#1a1a1d;
+    text-shadow:#c3073f .01px .01px 10px;
+    text-decoration: none;
+}
+#navbar ul li #page{
+    color:#c3073f;
+    text-shadow:#1a1a1d .01px .01px 10px;
+    text-decoration: none;
+}
+#navbar ul li a:hover,#navbar ul li #page:hover{
+   color:#950740;
+   text-shadow:#1a1a1d 1px 1px 10px;
+
+}
+#contener{
+    box-sizing: border-box;
+    text-align: center;
+    height: 500px;
+    padding-top: 50px;
+}
+#login{
+    box-sizing: border-box;
+    position: relative;
+    top:200px;
+    background-image: linear-gradient(#4e4e50,#1a1a1d,#4e4e50);
+    height: 350px;
+    margin: 0 auto;
+    max-width: 800px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    border-radius: 100px;
+    outline: #950740 6px solid;
+}
+
+#login label{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #950740;
+    text-shadow: #4e4e50 1px 1px 10px;
+    margin: 10px;
+}
+#login input{
+    border: none;
+    width: 200px;
+    height: 30px;
+    background-color:#4e4e50;
+    color:#1a1a1d;
+    border-radius: 20px 0;
+    padding-left:6px ;
+    
+}
+#login input:hover{
+    background-color:#c3073f;
+    color:#1a1a1d;
+}
+#login #password{
+    margin-left:10px ;
+}
+#login input::placeholder{
+    color:#1a1a1d;
+    text-shadow:#950740 0.01px 0.01px 10px;
+
+
+}
+#login button{
+    background-color:#950740;
+    color:#1a1a1d;
+    border: none;
+    width: 130px;
+    height: 30px;
+    margin:20px ;
+    border-radius: 20px;
+    padding: 3px;
+    transition: all .5s ;
+}
+#login button:hover{
+    width: 170px;
+    color: aliceblue;
+}
+.footre{
+    position: relative;
+    top:160px;
+    background-image: linear-gradient(#1a1a1d,#950740);
+    min-height: 30px;
+    color:#1a1a1d;
+    font-size: 25px;
+    text-shadow: #c3073f .01px .01px 10px;
+}
+.date{
+font-size: 13px;
+}
+/* #1a1a1d
+   #4e4e50
+   #6f2232
+   #950740
+   #c3073f    
+*/
